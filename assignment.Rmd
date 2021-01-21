@@ -105,3 +105,9 @@ ggplot(chick_data, aes(x = diet, y = weight, color = diet, fill = diet)) +
   )
 
 ```
+
+## Session Info
+
+```{r}
+sessioninfo::session_info()
+```
